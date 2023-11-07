@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        }
+        .pembuka{
+            margin-top: %;
+            margin-left: 10%;           
+        }
+        .bod{
+          padding: 100%;
+          border: 2px solid #333; 
+          border-radius: 20px; 
+          padding: 20px;
+        }
+        .pan{
+          border: 2px solid #333; 
+          border-radius: 20px; 
+          padding: 20px;
+          background-color:rgb(255,144,0,0.1);      
+        }
+        ol,li{
+            font-size: 20px;
+            font-family: 'Times New Roman';
+        }
+
+        .maly {
+          text-align : center;
+          font-weight : bold;
+          font-family : lora;          
+        }
+        body{
+          font: 15px/1.5 Arial,Helvetica,sans-serif;
+          padding:0;
+          margin:0;
+          background-color:#f4f4f4;
+        }
+        /* Global */
+        .container{
+          width:80%;
+          margin:auto;
+          overflow:hidden;
+        }
+        
+        ul{
+          margin:0;
+          padding:0;
+        }
+
+        .button_1{
+          height:38px;
+          background:#e8491d;
+          border:0;
+          padding-left: 20px;
+          padding-right:20px;
+          color:#ffffff;
+        }
+
+        .dark{
+          padding:15px;
+          background:#35424a;
+          color:#ffffff;
+          margin-top:10px;
+          margin-bottom:10px;
+        }
+
+        /* Header **/
+        header{
+          background:#35424a;
+          color:#ffffff;
+          padding-top:30px;
+          min-height:70px;
+          border-bottom:#e8491d 3px solid;
+        }
+
+        header a{
+          color:#ffffff;
+          text-decoration:none;
+          text-transform: uppercase;
+          font-size:16px;
+        }
+
+        header li{
+          float:left;
+          display:inline;
+          padding: 0 20px 0 20px;
+        }
+
+        header #branding{
+          float:left;
+        }
+
+        header #branding h1{
+          margin:0;
+        }
+
+        header nav{
+          float:right;
+          margin-top:10px;
+        }
+
+        header .highlight, header .current a{
+          color:#e8491d;
+          font-weight:bold;
+        }
+
+        header a:hover{
+          color:#cccccc;
+          font-weight:bold;
+        }
+
+        /* Showcase */
+        #showcase{
+          min-height:400px; background:url('https://drive.google.com/file/d/10P4OMN2WDDOpO7FArHumA4e52kQ3cMv1/view?usp=drivesdk') no-repeat;
+          background-position: center;
+          background-size: cover;
+          text-align:center;
+          color:#ffffff;
+        }
+
+        #showcase h1{
+          margin-top:100px;
+          font-size:55px;
+          margin-bottom:10px;
+        }
+
+        #showcase p{
+          font-size:20px;
+        }
+
+        /* Newsletter */
+        #newsletter{
+          padding:15px;
+          color:#ffffff;
+          background:#35424a
+        }
+
+        #newsletter h1{
+          float:left;
+        }
+
+        #newsletter form {
+          float:right;
+          margin-top:15px;
+        }
+
+        #newsletter input[type="email"]{
+          padding:4px;
+          height:25px;
+          width:250px;
+        }
+
+        /* Boxes */
+        #boxes{
+          margin-top:20px;
+        }
+
+        #boxes .box{
+          float:left;
+          text-align: center;
+          width:30%;
+          padding:10px;
+        }
+
+        #boxes .box img{
+          width:90px;
+        }
+
+        /* Sidebar */
+        aside#sidebar{
+          float:right;
+          width:30%;
+          margin-top:10px;
+        }
+
+        aside#sidebar .quote input,             aside#sidebar .quote textarea{
+          width:90%;
+          padding:5px;
+        }
+
+        /* Main-col */
+        article#main-col{
+          float:left;
+          width:65%;
+        }
+
+        /* Services */
+        ul#services li{
+          list-style: none;
+          padding:20px;
+          border: #cccccc solid 1px;
+          margin-bottom:5px;
+          background:#e6e6e6;
+        }
+
+        footer{
+          padding:20px;
+          margin-top:20px;
+          color:#ffffff;
+          background-color:#e8491d;
+          text-align: center;
+        }
+
+        /* Media Queries */
+        @media(max-width: 768px){
+          header #branding,
+          header nav,
+          header nav li,
+          #newsletter h1,
+          #newsletter form,
+          #boxes .box,
+          article#main-col,
+          aside#sidebar{
+            float:none;
+            text-align:center;
+            width:100%;
+          }
+
+          header{
+            padding-bottom:20px;
+          }
+
+          #showcase h1{
+            margin-top:40px;
+          }
+
+          #newsletter button, .quote button{
+            display:block;
+           width:100%;
+          }
+
+          #newsletter form input[type="email"], .quote input, .quote textarea{
+            width:100%;
+            margin-bottom:5px;
+          }
+        }
+     </style>       
+
+    
+    <title>Laporan Konfigurasi Mikrotik OS Menggunakan VMware</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+       <div id="branding">
+          <h1 id="pol"><span class="highlight">Syaif</span> Tutorial</h1>
+         </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="#pol">Home</a></li>
+            <li><a href="#maly">About</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="contaier">
+        <img src="http://drive.google.com/uc?export=view&id=1uLA-eLXwFZ1dhqHdLP0iGVyf5VSOmnLo" href="#maly" alt="Deskripsi Gambar" id="pol"width="100%">
+        
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1 text-align="center">Disclaimer : change to desktop site for better experience!</h1>
+      </div>
+    </section>
+    
+    
+    <div class ="pan">
+        <h1 class="maly">DAFTAR ISI</h1>
+        <ol class="man">
+            <li><a href="#pembuka">Pembuka</a></li>
+            <li><a href="#tujuan">Tujuan</a></li>
+            <li id="pin"><a href="#conf">Konfigurasi</a></li>
+                <ol type="a">
+                    <li>Alat dan Bahan</li>
+                    <li>Topologi</li>
+                    <li>Langkah Langkah Konfigurasi</li>
+                        <ul type="none">
+                            <li>&bull; Penginstalan Mikrotik OS</li>
+                            <li>&bull; Konfigurasi Mikrotik OS</li>
+                            <li>&bull; Penginstalan Windows 7</li>
+                            <li>&bull; Konfigurasi Windows 7 </li>
+                        </ul>
+                    <li>Pengecekan</li>
+                    <li>Kesimpulan</li> 
+                </ol>
+                <li>Penutup</li>
+                    <ol type="a">
+                        <li>About</li>
+                        <li>Services</li>
+                    </ol>
+        </ol>
+        <p> Note : klik untuk menuju bagian yang diinginkan!</p>
+    </div>
+    <div class="bod">
+        <h2 style="margin-left: 10%" id="pembuka"> PEMBUKA</h2>
+        <p>Perkenalan nama saya Muhammad Syaif Aly Syahputra. Saya bersekolah di <a href="https://www.smkn1mojokerto.sch.id/">SMK Negeri 1 Mojokerto</a> dengan jurusan TJKT atau Teknik jaringan dan telekomunikasi. Saat ini saya kelas 11 TKJ 2. Guru jurusan TJKT saya memberikan tugas "Konfigurasi Mikrotik OS dengan static". Saya akan menjabarkan langkah langkah konfigurasi tersebut di web ini. Selamat membaca</p>
+        <h2 style="margin-left: 10%" id="tujuan">TUJUAN</h2>
+        <p>Kegiatan konfigurasi ini bertujuan agar siswa mampu mengkonfigurasi mikrotik OS menggunakan VMware dan terhubung internet melalui NAT kemudian menyebarkannya, jadi server dan client memperoleh akses internet melalui proses NAT terlebih dahulu atau network address translation. Anda juga bisa mengetahui gambaran bagaimana siswa smk jurusan TJKT mempelajari bidang ini</p>
+        <h2 style="margin-left: 10%" id="conf">KONFIGURASI</h2>
+        <p>Konfigurasi dibagi dalam beberapa sesi agar urut,runtut dan jelas. Bisa dilihat di <a href="#pin">daftar isi</a>diatas</p>
+        <h3>Alat dan bahan</h3>
+        <ol>
+            <li>Aplikasi VM ware</li>
+            <img src="http://drive.google.com/uc?export=view&id=1v2DddsnU9jBrIZktxSB6f5aa3nveYiiy" alt="VMware" width="20%"><p><a href="https://dl18.nesabamedia.net/windows/vmwareworkstation/VMware.Workstation.16.2.1.18811642.rar">Download here</a></p>
+            <li>ISO Mikrotik OS</li>
+            <img src="http://drive.google.com/uc?export=view&id=1v954FhsQm7vUtsDv9ojM4VBvOOCOGq7Q" alt="Mikrotik OS" width="20%">
+            <p><a href="https://www.routeros.co.id/?act=preview&versi=6.33&nf=mikrotik-6.33.iso&key=9d8d81f60c61c94c09d78be766c21a76">Download here</a></p>
+            <li>ISO Windows 7</li>
+            <img src="http://drive.google.com/uc?export=view&id=1v9G1c9K8x9U2AVXbkbHH1e597TPgv_b7" alt="Windows 7" width="20%">
+            <p><a href="https://dl20.nesabamedia.net/apps/Windows7.Ultimate.SP1.x64.NesabaMedia.iso">Download here</a></p>
+        </ol>
+        <h3>Topologi </h3>
+        <h5>1. Topologi Fisik</h5>
+        <img src="http://drive.google.com/uc?export=view&id=1vA157q6oFCXpuznxT1GoqV8kH6TzSdo0" alt="Topologi" width="50%">
+        <h5>2. Topologi Logis</h5>
+        
+    <table border="1">
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>IP Address </th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>NAT Gateway</td>
+            <td>2.2.32.2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ether1 router</td>
+            <td>2.2.32.1/26</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>DHCP-Server</td>
+            <td>2.2.32.64/26</td>
+        </tr>
+           <tr>
+            <td>4</td>
+            <td>Hotspot</td>
+            <td>2.2.32.128/26</td>
+        </tr>
+        <h6>Penjelasan</h6>
+        <p>NAT Gateway : Berfungsi sebagai penghubung antara jaringan lokal ke internet</p>
+    </table>
+        
+    </table>
+
+
+        <h3>b. Langkah langkah konfigurasi</h3>
+        <p>pada bagian ini juga dibagi dalam beberapa sub-bagian</p>
+        <h4 &bull style="margin-left: 20%"></h4>
+    </div>
+   
+    
+    <footer id="maly">
+      <p>Syaif Tutorial, Copyright &copy; 2023</p>
+    </footer>
+  </body>
+<html>
